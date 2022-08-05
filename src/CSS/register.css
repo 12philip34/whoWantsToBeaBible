@@ -1,0 +1,59 @@
+
+:root{
+  --blue: #2B3E86;
+
+   --box-shadow-inset-blue: .4rem .4rem 1rem #355cb8 inset,
+                -.4rem -.4rem 1rem rgb(98, 119, 200) inset;
+    --bt-shadow:.5rem .5rem .2rem #243167,
+                -.3rem -.3rem .2rem #455f9a;
+    --bt-shadow-inset: .4rem .4rem 1rem #243167 inset,
+                -.4rem -.4rem 1rem #455f9a inset;
+}
+
+.register{
+  display: grid;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.582), black), url("../SoundTracks/bg.png") center;
+  gap: 30px;
+}
+
+.register h2{
+  color: white;
+  font-family: serif;
+  margin: 20px;
+}
+.box{
+  padding: 0 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-flow: column;
+
+}
+label{
+  font-size: 1.2rem;
+  color: white;
+  font-weight: 600;
+  font-family: sans-serif;
+  margin: 1rem 0;
+}
+.form_input{
+  height: 30px;
+  width: 20rem;
+  border-radius: 10px;
+  border: none;
+  font-size: 1rem;
+  padding: 5px;
+  gap: 20px;
+  outline: none;
+}
+.form_input:active{
+  outline: none;
+  border: none;
+  
+}
+.myButton{
+  margin: 30px auto;
+  border-radius: 10px;
+}
